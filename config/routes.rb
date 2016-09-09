@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   devise_for :views
-  devise_for :views
-  devise_for :views
+  #devise_for :views
+  #devise_for :views
   #Pinteresting::Application.routes.draw.do # Do i need to replace?
   #get 'pages/home'
   root "pages#home"
