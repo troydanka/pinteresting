@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'# bundle exec rake doc:rails generates the API under doc
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass' #github: 'thomas-mcdonald/bootsrap-sass', branch: '3'
 gem 'devise', '~> 3.4.0.rc2' #3.1.0.rc2
+gem 'paperclip', '~> 4.2'
 
 group :development, :test do
 	gem 'sqlite3'
